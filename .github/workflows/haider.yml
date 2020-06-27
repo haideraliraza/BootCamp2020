@@ -26,4 +26,4 @@ jobs:
     -name: install Surge
      run: npm install -g surge
      -name: Run Surge
-      run: surge ./ myfirstgithubapp.surge.sh --token ${{secret.MY_TOKEN}}
+      run: surge ./ myfirstgithubapp.surge.sh --token ${{secrets.MY_TOKEN}}
