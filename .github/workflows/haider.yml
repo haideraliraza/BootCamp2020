@@ -24,6 +24,6 @@ jobs:
     - name: install NodeJS
       run: actions/setup-node@v2-beta
     -name: install Surge
-     run: npm install --g surge
+     run: npm install --global surge
      -name: Run Surge
       run: surge ./ myfirstgithubapp.surge.sh --token ${{secrets.MY_TOKEN}}
