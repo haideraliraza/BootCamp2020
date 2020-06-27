@@ -28,4 +28,4 @@ jobs:
     - name: Surge install
       run: npm install -g surge
     - name: surge
-      run: surge ./ myfirstnewgithubcollab.surge.sh --token ${{secrets.MY}} 
+      run: surge ./ myfirstnewgithubcollab.surge.sh --token ${{secrets.MY_TOKEN}} 
